@@ -127,10 +127,10 @@ public sealed class FindingTypesExampleApplication
         };
     }
 
-    private static IReadOnlyList<Assembly> LoadAssembliesFromDirectory(string directoryPath)
+    private static IReadOnlyList<Assembly> LoadAssembliesFromDirectory(string directoryPath, string filter = "*.dll")
     {
         var assemblies = new List<Assembly>();
-        foreach (var file in Directory.EnumerateFiles(directoryPath, "*.dll"))
+        foreach (var file in Directory.EnumerateFiles(directoryPath, filter))
         {
             try
             {
