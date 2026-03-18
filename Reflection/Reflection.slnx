@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="Reflection/Reflection.csproj" />
+  <Project Path="FindingTypes.ConsoleApp/FindingTypes.ConsoleApp.csproj" />
+  <Project Path="FindingTypes.ExtraTypes/FindingTypes.ExtraTypes.csproj" />
+  <Project Path="WhatIsReflection.ConsoleApp/WhatIsReflection.ConsoleApp.csproj" />
 </Solution>
